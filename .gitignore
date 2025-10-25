@@ -1,0 +1,40 @@
+# Go build output
+/bin/
+/build/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Vendor folder
+/vendor/
+
+# Dependency directories
+/pkg/mod/
+
+# Go test binary
+*.test
+
+# Go coverage files
+*.out
+
+# Logs
+*.log
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Node (if using frontend)
+node_modules/
+dist/
